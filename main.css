@@ -19,43 +19,47 @@ header{
     padding-top: 20px;
     padding-bottom: 10px;
     background-color: rgb(255, 255, 255);
-    height: 200px;
+    height: 300px;
 }
 .heading h1{
     font-size: 50px;
     color: rgb(15, 1, 1);
-    padding-top: 20px;
-    padding-left: 80px;
+    padding-top: 60px;
+    padding-left: 60px;
 }
 .heading h4{
     font-size: 25px;
-    color: rgb(65, 64, 64);
+    color: #363636;
     font-weight: 100;
-    padding-left: 80px;
+    padding-left: 60px;
     padding-bottom: 20px;
 }
 .heading-picture img{
     width: 25%;
-    height: 186px;
     position: relative;
-    top: -191px;
-    left: 600px;
+    top: -182px;
+    left: 470px;
 }
 .contacts{
-    background-color: rgb(49, 48, 48);
+    background-color: #3d3d3d;
     display: flex;
     flex-direction: row;
     color: rgb(253, 252, 251);
     justify-content: space-around;
-    padding: 60px 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 28px;
+    font-size: 13px;
+    width: 59%;
 }
 section{
-    height: 650px;
+    height: 750px;
+    background-color: rgba(255, 255, 255, 0.733);
 }
 .container{
     color:rgb(19, 17, 15);
-    padding-top: 30px;
-    padding-left: 40px;
+    padding-top: 62px;
+    padding-left: 60px;
     padding-right: 190px;
     margin-right: 300px;
     line-height: 26px;
@@ -65,6 +69,8 @@ section{
 }
 .container-profile p{
     padding-top: 5px;
+    font-size: 13px;
+    color: #505050;
 }
 
 .container-experience h4{
@@ -72,54 +78,56 @@ section{
 }
 .container-experience p{
     padding-top: 10px;
+    font-size: 13px;
+    
 }
 .container-experience ul li{
     padding-top: 10px;
+    font-size: 13px;
+    color: #505050;
 }
 .container2{
-    background-color: rgb(229, 231, 231);
+    background-color: #EBEBEB;
     color:rgb(12, 11, 11);
     margin-left: 0px;
     position: relative;
-    top: -634px;
+    top: -707px;
     left: 490px;
     line-height: 25px;
-    padding: 20px;
-    height: 650px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    height: 817px;
 }
 .container2 p{
-    font-size: 14px;
+    font-size: 13px;
     line-height: 22px;
 }
-.container-certification h4{
-    padding-top: 10px;
+.container-education h4{
+    padding-top: 20px;
 }
-.container-skill{
-    position: relative;
-    left: 18px;
-    top: 30px
-}
-.container-skill h4{
-    padding-top: 10px;
-    text-align: center;
-    font-size: 20px;
-}
-.skill-icons{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.container-skill .skill-icons h6{
-    font-size: 15px;
-    font-weight: 100;
-}
-.container-skill .skill-icons i{
-    font-size: 30px;
-}
-.skill-icons img{
-    width: 10%;
+.container-education p{
+    padding-top: 20px;
+    color: #505050;
 }
 
+.container-certification h4{
+    padding-top: 30px;
+}
+.container-certification p{
+    padding-top: 20px;
+    color: #505050;
+}
+.container-skill{
+    padding-left: 0px;
+}
+.container-skill li{
+    padding-top: 5px;
+    font-size: 13px;
+    color: #505050;
+}
+.container-skill h4{
+    padding-top: 30px;
+}
 
 
