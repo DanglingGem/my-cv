@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(180, 182, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 100px;
+    padding: 100px;
+}
+header{
+    padding-bottom: 10px;
+}
+.wrapper{
+    background-color: cornsilk;
+}
+.heading{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+}
+.heading h1{
+    font-size: 50px;
+    color: rgb(15, 1, 1);
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.heading h4{
+    font-size: 25px;
+    color: rgb(65, 64, 64);
+    font-weight: 100;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+.heading-picture img{
+    width: 25%;
+    height: 186px;
+    position: relative;
+    top: -191px;
+    left: 600px;
+}
+.contacts{
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    flex-direction: row;
+    color: rgb(253, 252, 251);
+    justify-content: space-around;
+    padding: 60px 5px;
+}
+section{
+    height: 650px;
+}
+.container{
+    color:rgb(19, 17, 15);
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 190px;
+    margin-right: 300px;
+    line-height: 26px;
+}
+.container-profile h4{
+    padding-bottom: 5px;
+}
+.container-profile p{
+    padding-top: 5px;
+}
+
+.container-experience h4{
+    padding-top: 40px;
+}
+.container-experience p{
+    padding-top: 10px;
+}
+.container-experience ul li{
+    padding-top: 10px;
+}
+.container2{
+    background-color: rgb(229, 231, 231);
+    color:rgb(12, 11, 11);
+    margin-left: 0px;
+    position: relative;
+    top: -634px;
+    left: 490px;
+    line-height: 25px;
+    padding: 20px;
+    height: 650px;
+}
+.container2 p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.container-certification h4{
+    padding-top: 10px;
+}
+.container-skill{
+    position: relative;
+    left: 18px;
+    top: 30px
+}
+.container-skill h4{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.skill-icons{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container-skill .skill-icons h6{
+    font-size: 15px;
+    font-weight: 100;
+}
+.container-skill .skill-icons i{
+    font-size: 30px;
+}
+.skill-icons img{
+    width: 10%;
+}
+
+
+
